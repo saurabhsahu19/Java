@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 */
 public class Consumer {
 	// Hello Brother
-	//jojo-1
+	//jojo-1-2
 	int poolSize;
 	BlockingQueue<String> queue;
 	public Consumer(int poolSize, BlockingQueue<String> queue){

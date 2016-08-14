@@ -1,7 +1,7 @@
 package Threading.consumerProducer;
 
 import java.util.concurrent.BlockingQueue;
-
+//This is producer
 public class Producer implements Runnable{
 	BlockingQueue<String> queue;
 	
