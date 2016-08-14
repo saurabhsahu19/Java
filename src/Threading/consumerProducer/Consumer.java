@@ -4,6 +4,8 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/* This is a consumer class
+*/
 public class Consumer {
 	int poolSize;
 	BlockingQueue<String> queue;
