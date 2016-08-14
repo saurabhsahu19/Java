@@ -7,8 +7,6 @@ import java.util.concurrent.Executors;
 /* This is a consumer class
 */
 public class Consumer {
-	// Hello Brother
-	//jojo-1-2
 	int poolSize;
 	BlockingQueue<String> queue;
 	public Consumer(int poolSize, BlockingQueue<String> queue){
@@ -17,7 +15,7 @@ public class Consumer {
 	}
 	
 	public void consume(){
-		// try to see other threads as well-hehe
+
 		ExecutorService service = Executors.newFixedThreadPool(5);
 		for(int i=0;i<=10;i++){
 			ItemProcessor ip = new ItemProcessor(queue);
