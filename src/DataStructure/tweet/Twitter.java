@@ -8,6 +8,11 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/* This twitter program is written to give count of hashtags in descending order
+ * Hashtags are case insensitive but result should contain the one which came first 
+ * i.e. #Ind and #ind are same but #Ind will be displayed because it occurred first
+ * if two hashtags are same, it should be sorted in alphabetical order
+ */
 public class Twitter{
 
 	public static void main(String[] args) {
